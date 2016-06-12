@@ -1,0 +1,21 @@
+//
+//  BCouese-Prefix.pch
+//  BaiduCourse
+//
+//  Created by apple on 7/6/16.
+//  Copyright © 2016年 mark. All rights reserved.
+//
+
+#ifndef BCouese_Prefix_pch
+#define BCouese_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file
+
+#import "HTTPToolRequest.h"
+#import <MJExtension.h>
+#import "NSObject+propertyCode.h"
+#import "UIImageView+WebCache.h"
+
+
+#endif /* BCouese_Prefix_pch */

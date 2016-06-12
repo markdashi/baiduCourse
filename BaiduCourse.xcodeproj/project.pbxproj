@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CD46941D051CB1007D72D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD46931D051CB1007D72D2 /* main.m */; };
+		18CD46971D051CB1007D72D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD46961D051CB1007D72D2 /* AppDelegate.m */; };
+		18CD469D1D051CB1007D72D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CD469B1D051CB1007D72D2 /* Main.storyboard */; };
+		18CD469F1D051CB1007D72D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CD469E1D051CB1007D72D2 /* Assets.xcassets */; };
+		18CD46A21D051CB1007D72D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CD46A01D051CB1007D72D2 /* LaunchScreen.storyboard */; };
+		18E39BA01D09A60A00609F64 /* AlbuimModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E39B921D09A60A00609F64 /* AlbuimModel.m */; };
+		18E39BA11D09A60A00609F64 /* courseListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E39B941D09A60A00609F64 /* courseListModel.m */; };
+		18E39BA21D09A60A00609F64 /* focusListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E39B961D09A60A00609F64 /* focusListModel.m */; };
+		18E39BA31D09A60A00609F64 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E39B991D09A60A00609F64 /* HomeTableViewCell.m */; };
+		18E39BA41D09A60A00609F64 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E39B9A1D09A60A00609F64 /* HomeTableViewCell.xib */; };
+		18E39BA51D09A60A00609F64 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E39B9C1D09A60A00609F64 /* MyCollectionViewCell.m */; };
+		18E39BA61D09A60A00609F64 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E39B9D1D09A60A00609F64 /* MyCollectionViewCell.xib */; };
+		18E39BB31D09A61E00609F64 /* NSObject+propertyCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E39BA91D09A61E00609F64 /* NSObject+propertyCode.m */; };
+		18E39BB41D09A61E00609F64 /* scrollLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E39BAC1D09A61E00609F64 /* scrollLoopView.m */; };
+		18E39BB51D09A61E00609F64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E39BAE1D09A61E00609F64 /* ViewController.m */; };
+		18E39BB61D09A61E00609F64 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E39BB01D09A61E00609F64 /* Foundation+Log.m */; };
+		18E39BB71D09A61E00609F64 /* HTTPToolRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E39BB21D09A61E00609F64 /* HTTPToolRequest.m */; };
+		AC4647C3206F80662307C532 /* libPods-BaiduCourse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F024437E970C22D132EFF73 /* libPods-BaiduCourse.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18CD468F1D051CB0007D72D2 /* BaiduCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiduCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CD46931D051CB1007D72D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18CD46951D051CB1007D72D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18CD46961D051CB1007D72D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18CD469C1D051CB1007D72D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18CD469E1D051CB1007D72D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18CD46A11D051CB1007D72D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18CD46A31D051CB1007D72D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CD46B61D06B1B6007D72D2 /* BCouese-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BCouese-Prefix.pch"; sourceTree = "<group>"; };
+		18E39B911D09A60A00609F64 /* AlbuimModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbuimModel.h; sourceTree = "<group>"; };
+		18E39B921D09A60A00609F64 /* AlbuimModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbuimModel.m; sourceTree = "<group>"; };
+		18E39B931D09A60A00609F64 /* courseListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = courseListModel.h; sourceTree = "<group>"; };
+		18E39B941D09A60A00609F64 /* courseListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = courseListModel.m; sourceTree = "<group>"; };
+		18E39B951D09A60A00609F64 /* focusListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = focusListModel.h; sourceTree = "<group>"; };
+		18E39B961D09A60A00609F64 /* focusListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = focusListModel.m; sourceTree = "<group>"; };
+		18E39B981D09A60A00609F64 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		18E39B991D09A60A00609F64 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		18E39B9A1D09A60A00609F64 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		18E39B9B1D09A60A00609F64 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		18E39B9C1D09A60A00609F64 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		18E39B9D1D09A60A00609F64 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		18E39BA81D09A61E00609F64 /* NSObject+propertyCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+propertyCode.h"; sourceTree = "<group>"; };
+		18E39BA91D09A61E00609F64 /* NSObject+propertyCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+propertyCode.m"; sourceTree = "<group>"; };
+		18E39BAB1D09A61E00609F64 /* scrollLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scrollLoopView.h; sourceTree = "<group>"; };
+		18E39BAC1D09A61E00609F64 /* scrollLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scrollLoopView.m; sourceTree = "<group>"; };
+		18E39BAD1D09A61E00609F64 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18E39BAE1D09A61E00609F64 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18E39BB01D09A61E00609F64 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		18E39BB11D09A61E00609F64 /* HTTPToolRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPToolRequest.h; sourceTree = "<group>"; };
+		18E39BB21D09A61E00609F64 /* HTTPToolRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPToolRequest.m; sourceTree = "<group>"; };
+		1E375ECD97C761AC370333AC /* Pods-BaiduCourse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduCourse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiduCourse/Pods-BaiduCourse.debug.xcconfig"; sourceTree = "<group>"; };
+		7F024437E970C22D132EFF73 /* libPods-BaiduCourse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaiduCourse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93CC57BBD3EF15CCEF8F2EA1 /* Pods-BaiduCourse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduCourse.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiduCourse/Pods-BaiduCourse.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CD468C1D051CB0007D72D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4647C3206F80662307C532 /* libPods-BaiduCourse.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CD46861D051CB0007D72D2 = {
+			isa = PBXGroup;
+			children = (
+				18CD46911D051CB1007D72D2 /* BaiduCourse */,
+				18CD46901D051CB0007D72D2 /* Products */,
+				847919581E9E531B155C0C8B /* Pods */,
+				57960CCCD80B3E7CDF21DA33 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18CD46901D051CB0007D72D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CD468F1D051CB0007D72D2 /* BaiduCourse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CD46911D051CB1007D72D2 /* BaiduCourse */ = {
+			isa = PBXGroup;
+			children = (
+				18E39BA71D09A61E00609F64 /* Catergory */,
+				18E39BAA1D09A61E00609F64 /* general */,
+				18E39BAF1D09A61E00609F64 /* tools */,
+				18E39B8E1D09A60A00609F64 /* 课程推荐 */,
+				18E39B9E1D09A60A00609F64 /* 离线下载 */,
+				18E39B9F1D09A60A00609F64 /* 我的传课 */,
+				18CD46951D051CB1007D72D2 /* AppDelegate.h */,
+				18CD46961D051CB1007D72D2 /* AppDelegate.m */,
+				18CD469B1D051CB1007D72D2 /* Main.storyboard */,
+				18CD469E1D051CB1007D72D2 /* Assets.xcassets */,
+				18CD46A01D051CB1007D72D2 /* LaunchScreen.storyboard */,
+				18CD46A31D051CB1007D72D2 /* Info.plist */,
+				18CD46B61D06B1B6007D72D2 /* BCouese-Prefix.pch */,
+				18CD46921D051CB1007D72D2 /* Supporting Files */,
+			);
+			path = BaiduCourse;
+			sourceTree = "<group>";
+		};
+		18CD46921D051CB1007D72D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18CD46931D051CB1007D72D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E39B8E1D09A60A00609F64 /* 课程推荐 */ = {
+			isa = PBXGroup;
+			children = (
+				18E39B8F1D09A60A00609F64 /* controller */,
+				18E39B901D09A60A00609F64 /* model */,
+				18E39B971D09A60A00609F64 /* view */,
+			);
+			path = "课程推荐";
+			sourceTree = "<group>";
+		};
+		18E39B8F1D09A60A00609F64 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		18E39B901D09A60A00609F64 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				18E39B911D09A60A00609F64 /* AlbuimModel.h */,
+				18E39B921D09A60A00609F64 /* AlbuimModel.m */,
+				18E39B931D09A60A00609F64 /* courseListModel.h */,
+				18E39B941D09A60A00609F64 /* courseListModel.m */,
+				18E39B951D09A60A00609F64 /* focusListModel.h */,
+				18E39B961D09A60A00609F64 /* focusListModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		18E39B971D09A60A00609F64 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				18E39B981D09A60A00609F64 /* HomeTableViewCell.h */,
+				18E39B991D09A60A00609F64 /* HomeTableViewCell.m */,
+				18E39B9A1D09A60A00609F64 /* HomeTableViewCell.xib */,
+				18E39B9B1D09A60A00609F64 /* MyCollectionViewCell.h */,
+				18E39B9C1D09A60A00609F64 /* MyCollectionViewCell.m */,
+				18E39B9D1D09A60A00609F64 /* MyCollectionViewCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		18E39B9E1D09A60A00609F64 /* 离线下载 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "离线下载";
+			sourceTree = "<group>";
+		};
+		18E39B9F1D09A60A00609F64 /* 我的传课 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "我的传课";
+			sourceTree = "<group>";
+		};
+		18E39BA71D09A61E00609F64 /* Catergory */ = {
+			isa = PBXGroup;
+			children = (
+				18E39BA81D09A61E00609F64 /* NSObject+propertyCode.h */,
+				18E39BA91D09A61E00609F64 /* NSObject+propertyCode.m */,
+			);
+			path = Catergory;
+			sourceTree = "<group>";
+		};
+		18E39BAA1D09A61E00609F64 /* general */ = {
+			isa = PBXGroup;
+			children = (
+				18E39BAB1D09A61E00609F64 /* scrollLoopView.h */,
+				18E39BAC1D09A61E00609F64 /* scrollLoopView.m */,
+				18E39BAD1D09A61E00609F64 /* ViewController.h */,
+				18E39BAE1D09A61E00609F64 /* ViewController.m */,
+			);
+			path = general;
+			sourceTree = "<group>";
+		};
+		18E39BAF1D09A61E00609F64 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				18E39BB01D09A61E00609F64 /* Foundation+Log.m */,
+				18E39BB11D09A61E00609F64 /* HTTPToolRequest.h */,
+				18E39BB21D09A61E00609F64 /* HTTPToolRequest.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		57960CCCD80B3E7CDF21DA33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F024437E970C22D132EFF73 /* libPods-BaiduCourse.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		847919581E9E531B155C0C8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E375ECD97C761AC370333AC /* Pods-BaiduCourse.debug.xcconfig */,
+				93CC57BBD3EF15CCEF8F2EA1 /* Pods-BaiduCourse.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CD468E1D051CB0007D72D2 /* BaiduCourse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CD46A61D051CB1007D72D2 /* Build configuration list for PBXNativeTarget "BaiduCourse" */;
+			buildPhases = (
+				9537A91995D279E4E5F90B22 /* [CP] Check Pods Manifest.lock */,
+				18CD468B1D051CB0007D72D2 /* Sources */,
+				18CD468C1D051CB0007D72D2 /* Frameworks */,
+				18CD468D1D051CB0007D72D2 /* Resources */,
+				0D21CDD91170DD98F278C5E3 /* [CP] Embed Pods Frameworks */,
+				ADF13BEE02B4CE7E9A0ECE3A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaiduCourse;
+			productName = BaiduCourse;
+			productReference = 18CD468F1D051CB0007D72D2 /* BaiduCourse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CD46871D051CB0007D72D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mark;
+				TargetAttributes = {
+					18CD468E1D051CB0007D72D2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 18CD468A1D051CB0007D72D2 /* Build configuration list for PBXProject "BaiduCourse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CD46861D051CB0007D72D2;
+			productRefGroup = 18CD46901D051CB0007D72D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CD468E1D051CB0007D72D2 /* BaiduCourse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CD468D1D051CB0007D72D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E39BA61D09A60A00609F64 /* MyCollectionViewCell.xib in Resources */,
+				18CD46A21D051CB1007D72D2 /* LaunchScreen.storyboard in Resources */,
+				18CD469F1D051CB1007D72D2 /* Assets.xcassets in Resources */,
+				18E39BA41D09A60A00609F64 /* HomeTableViewCell.xib in Resources */,
+				18CD469D1D051CB1007D72D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D21CDD91170DD98F278C5E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaiduCourse/Pods-BaiduCourse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9537A91995D279E4E5F90B22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ADF13BEE02B4CE7E9A0ECE3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaiduCourse/Pods-BaiduCourse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CD468B1D051CB0007D72D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CD46971D051CB1007D72D2 /* AppDelegate.m in Sources */,
+				18E39BA51D09A60A00609F64 /* MyCollectionViewCell.m in Sources */,
+				18E39BB41D09A61E00609F64 /* scrollLoopView.m in Sources */,
+				18CD46941D051CB1007D72D2 /* main.m in Sources */,
+				18E39BB51D09A61E00609F64 /* ViewController.m in Sources */,
+				18E39BB61D09A61E00609F64 /* Foundation+Log.m in Sources */,
+				18E39BA31D09A60A00609F64 /* HomeTableViewCell.m in Sources */,
+				18E39BA11D09A60A00609F64 /* courseListModel.m in Sources */,
+				18E39BB31D09A61E00609F64 /* NSObject+propertyCode.m in Sources */,
+				18E39BA01D09A60A00609F64 /* AlbuimModel.m in Sources */,
+				18E39BA21D09A60A00609F64 /* focusListModel.m in Sources */,
+				18E39BB71D09A61E00609F64 /* HTTPToolRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18CD469B1D051CB1007D72D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CD469C1D051CB1007D72D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18CD46A01D051CB1007D72D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CD46A11D051CB1007D72D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CD46A41D051CB1007D72D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/apple/Desktop/demo/百度传课/BaiduCourse/BaiduCourse/BCouese-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18CD46A51D051CB1007D72D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/apple/Desktop/demo/百度传课/BaiduCourse/BaiduCourse/BCouese-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CD46A71D051CB1007D72D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E375ECD97C761AC370333AC /* Pods-BaiduCourse.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "/Users/apple/Desktop/demo/百度传课/BaiduCourse/BCouese-Prefix.pch";
+				INFOPLIST_FILE = BaiduCourse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uml-tech.www.BaiduCourse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18CD46A81D051CB1007D72D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93CC57BBD3EF15CCEF8F2EA1 /* Pods-BaiduCourse.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "/Users/apple/Desktop/demo/百度传课/BaiduCourse/BCouese-Prefix.pch";
+				INFOPLIST_FILE = BaiduCourse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uml-tech.www.BaiduCourse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CD468A1D051CB0007D72D2 /* Build configuration list for PBXProject "BaiduCourse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CD46A41D051CB1007D72D2 /* Debug */,
+				18CD46A51D051CB1007D72D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CD46A61D051CB1007D72D2 /* Build configuration list for PBXNativeTarget "BaiduCourse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CD46A71D051CB1007D72D2 /* Debug */,
+				18CD46A81D051CB1007D72D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CD46871D051CB0007D72D2 /* Project object */;
+}
